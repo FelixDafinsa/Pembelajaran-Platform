@@ -1,0 +1,58 @@
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: green ;
+}
+
+.header a:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #1a6b06;
+}
+
+.menu-image {
+    width: 30px; /* Sesuaikan lebar gambar */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
