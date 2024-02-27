@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(51, 195, 171);
+  }
+  
+  h1 {
+    color: rgb(3, 98, 23);
+    margin-left: 20px;
+    text-align:center;
+    font-family:Brush Script MT;
+    font-size:300%
+  }
+  p {
+    font-size: 150%;
+    text-align: left;
+  }
+  p1{
+    font-size: 170%;
+  }
