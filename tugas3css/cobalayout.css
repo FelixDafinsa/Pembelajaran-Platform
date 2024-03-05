@@ -1,11 +1,11 @@
 .container {
     width: 800px;
     margin: auto;
-    background-color: aquamarine;
 }
 
 .header{
     padding: 20px;
+    padding-bottom: 10px;
 }
 
 .header .judul {
@@ -29,6 +29,44 @@
     color: aliceblue;
 }
 
+.hero {
+    height: 500px;
+    background-image: url(m.png);
+    background-size: cover;
+    background-position: 0 -180px;
+    border-top: 5px solid lightskyblue;
+    border-bottom:5px solid lightcoral ;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+ font-size: 11px;
+ margin-top: -20px;
+}
+
+.content .p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: blueviolet;
+    text-align: center;
+    font-size: 12px;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,13 +79,9 @@ li {
 }
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-li a:hover {
-    background-color: #1a6b06;
 }
 
 .menu-image {

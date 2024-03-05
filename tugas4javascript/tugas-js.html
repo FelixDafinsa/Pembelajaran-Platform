@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulir Masukan</title>
+</head>
+<body>
+
+<h2>Masukkan Nama, Jumlah Pilihan, dan Teks Pilihan</h2>
+
+<form id="inputForm">
+  <label for="nama">Nama:</label><br>
+  <input type="text" id="nama" name="nama"><br>
+  <label for="jumlahPilihan">Jumlah Pilihan:</label><br>
+  <input type="number" id="jumlahPilihan" name="jumlahPilihan" min="1"><br><br>
+  <button type="button" id="submitButton">OK</button>
+</form>
+
+<div id="textInputs" style="display: none;">
+  <h3>Masukkan Teks Pilihan</h3>
+  <div id="textInputsContainer"></div>
+  <button type="button" id="textInputsSubmitButton" style="display: none;">Submit</button>
+</div>
+
+<div id="radioButtons" style="display: none;">
+  <h3>Pilih salah satu</h3>
+  <div id="radioButtonsContainer"></div>
+  <button type="button" id="radioButtonsSubmitButton" style="display: none;">Submit</button>
+
+</div>
+
+<script src="js.js"></script>
+
+</body>
+</html>
