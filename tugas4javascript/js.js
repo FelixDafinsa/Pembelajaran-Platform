@@ -85,3 +85,15 @@ document.getElementById("radioButtonsSubmitButton").addEventListener("click", fu
       alert("Pilih salah satu opsi terlebih dahulu.");
     }
 });
+
+function setHeaderImage() {
+  var header = document.getElementById('header');
+  var images = ['header.jpg']; // Ganti dengan daftar gambar Anda
+  var randomIndex = Math.floor(Math.random() * images.length);
+  var selectedImage = images[randomIndex];
+  header.style.backgroundImage = 'url(' + selectedImage + ')';
+}
+
+window.onload = function() {
+  setHeaderImage();
+};

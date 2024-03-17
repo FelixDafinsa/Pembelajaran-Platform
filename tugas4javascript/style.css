@@ -1,0 +1,5 @@
+#header1 {
+    background-size: cover; /* Ganti dengan 'contain' jika Anda ingin menggabungkan beberapa gambar */
+    background-position: center;
+    height: 100vh; /* Set the height of the header to 100 viewport height */
+  }
